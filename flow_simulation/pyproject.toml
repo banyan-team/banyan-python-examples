@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "banyan-demo-flow-simulation"
+version = "1.0.0"
+description = "Banyan demo for MPI flow simulation"
+authors = ["Banyan Computing <support@banyancomputing.com>"]
+
+[tool.poetry.dependencies]
+banyan-python = "0.1.1"
+python = ">=3.8,<3.11"
+jupyter = "^1.0.0"
+scipy = "^1.8.1"
+numpy = "^1.22.4"
